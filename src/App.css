@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'AvenirBold';
+  font-weight: bold;
+  src: url('./assets/fonts/AvenirNextLTPro-Bold.otf')
+}
+@font-face {
+  font-family: 'AvenirRegular';
+  font-weight: normal;
+  font-style: normal;
+  src: url('./assets/fonts/AvenirNextLTPro-Regular.otf')
+}
+@font-face {
+  font-family: 'AvenirRegular-500';
+  font-weight: 500;
+  font-style: normal;
+  src: url('./assets/fonts/AvenirNextLTPro-Regular.otf')
+}
+
+@font-face {
+  font-family: 'AvenirRegular-600';
+  font-weight: 600;
+  font-style: normal;
+  src: url('./assets/fonts/AvenirNextLTPro-Regular.otf')
+}
+
+.AvenirBold{
+  font-family: 'AvenirBold';
+}
+.AvenirRegular-600{
+  font-family: 'AvenirRegular-600';
+}
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.num-Steps{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  left: 1022px;
+  top: 460px;
+  color: #555555;
+
+  background: #262626;
+  border-radius: 50%;
+  border: 1px solid #555555;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+
+.active{
+  border: 1px solid #ffffff !important;
+  color: #ffffff !important;
+}
+
+
+.modal-content{
+  background-color: #dc4848 !important;
+}
+.modal-content .modal-header{
+  border-bottom: none;
+}
+.modal-content .modal-title{
+  color: #ffffff;
+  border-bottom: none;
+}
+.modal-content .modal-body{
+  border-top: none;
+  color: #ffffff;
+  text-align: center;
+}
+.modal-content .modal-footer{
+  border-top: none;
+  color: #ffffff;
+}
+.modal-content .modal-footer .buttonModal{
+  color: #ffffff;
+  background-color: transparent !important;
+  border: 1px solid #fff;
+  width: 120px;
+}
+
+.ul-green, .ul-orange {
+  list-style: none !important;
+}
+
+.ul-green li::before, .ul-orange li::before {
+  content: "\2022";
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block; 
+  width: 8px;
+  margin-left: -1em;
+  margin-right: 0.5rem;
+}
+.ul-green li::before {
+  color: #33FF00;
+}
+.ul-orange li::before { 
+  color: #EAB41F;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.step {
+  background-color: #fff;
+  padding: 43px 33px;
+
+  width: 587px;
+  max-width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
